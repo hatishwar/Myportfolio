@@ -1,0 +1,56 @@
+#about img{
+    max-width: 200px;
+    border-radius: 50%;
+}
+
+#about-head,#skills h1{
+    font-weight: 900;
+    text-decoration: underline 10px darkorange solid;
+    text-underline-offset: 10px;
+}
+
+#skills{
+    text-align: center;
+}
+
+#skills h3, #projects h3{
+    background-color: darkorange;
+    padding: 20px;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+}
+
+.skill{
+    /* background-color: pink; */
+    padding: 10px 5px;
+    margin: 5px;
+    margin-bottom: 20px;
+    border: 1px solid darkorange;
+    border-radius: 20px;
+    transition: 0.5s ease-in-out;
+}
+
+.skill:hover{
+    box-shadow: 0px 0px 10px 0px gray;
+}
+
+/* contact page */
+
+#contact, #connect{
+    text-align: center;
+}
+
+#contact ul,#connect ul{
+    list-style-type: none;
+}
+
+#contact li,#connect li{
+    padding: 10px;
+    background-color: yellowgreen;
+    max-width: 50%;
+    margin: auto;
+    margin-top: 5px;
+    border-radius: 10px;
+
+}
